@@ -1,9 +1,9 @@
 ```markdown
-# 📚 MenuBuilder Documentation Scraper (Google Colab)
+ 📚 MenuBuilder Documentation Scraper (Google Colab)
 
 Ushbu loyiha [docs.menubuilder.cc](https://docs.menubuilder.cc/) saytidagi barcha hujjatlarni avtomatik ravishda yig'ib (scrape qilib), bitta **Markdown (.md)** faylga aylantirib beradi.
 
-## 🎯 Muammo
+ 🎯 Muammo
 Bizga `MenuBuilder` bo'yicha to'liq dokumentatsiya kerak edi, lekin saytda "Barchasini yuklab olish" (Download All) tugmasi yo'q. Yuzlab sahifalarni qo'lda ko'chirib chiqish juda ko'p vaqt oladi.
 
 ## 💡 Yechim
@@ -13,7 +13,7 @@ Biz **Python** va **Google Colab** yordamida skript yozdik. Bu skript:
 3. Ularni chiroyli **Markdown** formatiga o'tkazadi.
 4. Barcha ma'lumotni bitta fayl qilib taqdim etadi.
 
-## 🚀 Qanday ishlatiladi? (Qo'llanma)
+ 🚀 Qanday ishlatiladi? (Qo'llanma)
 
 Sizga Python o'rnatish shart emas. Hammasi brauzerda ishlaydi.
 
@@ -23,8 +23,8 @@ Sizga Python o'rnatish shart emas. Hammasi brauzerda ishlaydi.
 4. 1-2 daqiqa kuting.
 5. Jarayon tugagach, `MenuBuilder_Docs_Full.md` fayli avtomatik yuklanadi (yoki chapdagi papka belgisidan topishingiz mumkin).
 
-## 💻 Kod (Script)
-
+ 💻 Kod (Script)
+```
 ```python
 # Kerakli kutubxonalarni o'rnatamiz
 !pip install requests beautifulsoup4 markdownify -q
@@ -89,7 +89,7 @@ try: files.download(OUTPUT_FILENAME)
 except: print("⚠️ Faylni chap menyudan yuklab oling.")
 ```
 
-## 🤖 Natija bilan nima qilamiz?
+ 🤖 Natija bilan nima qilamiz?
 Hosil bo'lgan `.md` faylni **ChatGPT**, **Claude** yoki **Gemini** ga yuklang va shunday deb yozing:
 
 > *"Mana MenuBuilder bo'yicha to'liq qo'llanma. Endi men senga bot sozlash bo'yicha savollar beraman, shu faylga asoslanib javob ber."*
