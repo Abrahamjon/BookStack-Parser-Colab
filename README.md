@@ -1,4 +1,4 @@
-```markdown
+
  📚 MenuBuilder Documentation Scraper (Google Colab)
 
 Ushbu loyiha [docs.menubuilder.cc](https://docs.menubuilder.cc/) saytidagi barcha hujjatlarni avtomatik ravishda yig'ib (scrape qilib), bitta **Markdown (.md)** faylga aylantirib beradi.
@@ -24,7 +24,7 @@ Sizga Python o'rnatish shart emas. Hammasi brauzerda ishlaydi.
 5. Jarayon tugagach, `MenuBuilder_Docs_Full.md` fayli avtomatik yuklanadi (yoki chapdagi papka belgisidan topishingiz mumkin).
 
  💻 Kod (Script)
-```
+
 ```python
 # Kerakli kutubxonalarni o'rnatamiz
 !pip install requests beautifulsoup4 markdownify -q
@@ -96,4 +96,4 @@ Hosil bo'lgan `.md` faylni **ChatGPT**, **Claude** yoki **Gemini** ga yuklang va
 
 ---
 *Muallif: [Abrahamjon]*
-```
+
